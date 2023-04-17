@@ -5,6 +5,25 @@
 
 body{
     background-color: var(--primary-col);
-    /* color: white;
-    text-align: center; */
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.box{
+    background-color: var(--normal-num);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--box-width);
+    height: var(--box-height);
+    margin: 10px;
 }
