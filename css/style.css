@@ -28,8 +28,31 @@ h1{
     margin: 10px;
 }
 
-.box-3{background-color: var(--multiple-three);}
+.box:hover{
+    cursor: pointer;
+    color: white;
+}
 
-.box-5{background-color: var(--multiple-five);}
+.box-3:hover {
+    background-color: var(--multiple-three);
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
 
-.box-S{background-color: var(--special-num);}
+.box-5:hover {
+    background-color: var(--multiple-five);
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.box-S:hover {
+    background-color: var(--special-num);
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
