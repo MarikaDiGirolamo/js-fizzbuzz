@@ -17,9 +17,9 @@ for (let contatore = 1; contatore < 100; contatore++) {
         console.log(`Buzz`);
         contenitore.innerHTML += `<div class="box box-5">Buzz</div>`;
 
-    } else if (contatore % 15 == 0){
-        console.log(`FizzBuzz`);
-        contenitore.innerHTML += `<div class="box box-S">Buzz</div>`;
+    // } else if (contatore % 15 == 0){
+    //     console.log(`FizzBuzz`);
+    //     contenitore.innerHTML += `<div class="box box-S">FizzBuzz</div>`;
         
     } else {
         console.log(`contatore`)
