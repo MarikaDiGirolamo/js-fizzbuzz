@@ -1,15 +1,34 @@
 const contenitore = document.getElementById("container");
 
-for (let contatore = 0; contatore < 100; contatore++) {
+for (let contatore = 1; contatore < 100; contatore++) {
 
-    let numeroVisualizzato = contatore + 1;
-    console.log(`Contatore vale:${contatore} - Stampo ${numeroVisualizzato}`);
+    // let numeroVisualizzato = contatore + 1;
+    // console.log(`Contatore vale:${contatore} - Stampo ${numeroVisualizzato}`);
 
-    let numero = numeroVisualizzato;
+    // let numero = contatore;
 
-    contenitore.innerHTML += `<div class="box">${numero}</div>`;
+    
+
+    if (contatore % 3 == 0){
+        console.log(`Fizz`);
+        contenitore.innerHTML += `<div class="box box-3">Fizz</div>`;
+
+    } else if (contatore % 5 == 0){
+        console.log(`Buzz`);
+        contenitore.innerHTML += `<div class="box box-5">Buzz</div>`;
+
+    } else if (contatore % 15 == 0){
+        console.log(`FizzBuzz`);
+        contenitore.innerHTML += `<div class="box box-S">Buzz</div>`;
+        
+    } else {
+        console.log(`contatore`)
+        contenitore.innerHTML += `<div class="box">${contatore}</div>`;
+    }
 }
 
-console.log(contenitore.innerHTML);
+
+
+
 
 
