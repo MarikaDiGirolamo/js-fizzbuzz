@@ -29,7 +29,7 @@ h1{
 }
 
 .box:hover{
-    cursor: pointer;
+    cursor: not-allowed;
     color: white;
 }
 
@@ -39,6 +39,7 @@ h1{
     color: black;
     transform: scale(1.1);
     transition-duration: 0.5s;
+    box-shadow: -1px 7px 0px -4px rgba(0,0,0,0.31)
 }
 
 .box-5:hover {
@@ -47,6 +48,7 @@ h1{
     color: black;
     transform: scale(1.1);
     transition-duration: 0.5s;
+    box-shadow: -1px 7px 0px -4px rgba(0,0,0,0.31)
 }
 
 .box-S:hover {
@@ -55,4 +57,5 @@ h1{
     color: black;
     transform: scale(1.1);
     transition-duration: 0.5s;
+    box-shadow: -1px 7px 0px -4px rgba(0,0,0,0.31)
 }
